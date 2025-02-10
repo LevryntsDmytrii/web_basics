@@ -1,19 +1,19 @@
-// Зберігаю початковий час
+
 const startTime = new Date();
 
-// Таймер на 10 секунд
+
 let currentTime;
 
 do {
-    // Отримую поточний час
+    
     currentTime = new Date();
-    // Різниця в мілісекундах
+    
     const elapsedTime = currentTime - startTime;
     
-    // Вивожу, скільки часу пройшло
+    
     console.log(`Пройшло: ${(elapsedTime / 1000).toFixed(1)} секунд`);
     
-} while (currentTime - startTime < 10000); // 10 секунд
+} while (currentTime - startTime < 10000); 
 
 // Використання класу Car
 const myCar = new Car('Toyota', 'Camry');
@@ -71,3 +71,26 @@ class Truck extends Vehicle {
     }
 }
 
+
+const startTime = new Date();
+
+let currentTime;
+
+do {
+    currentTime = new Date();
+
+    const 
+}
+
+
+const Startime = new Date();
+
+let = currentTime;
+
+do {
+    currentTime = new Date();
+
+    elapsedTime = currentTime - startTime;
+
+    c
+}
